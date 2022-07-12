@@ -25,7 +25,7 @@ img {
     border: 10px solid #fefae0;
     -webkit-filter: sepia(100%);
     filter: sepia(100%);
-    transition-duration: 1s;
+    transition: all 1s;
 }
 
 img:hover {
