@@ -30,8 +30,8 @@ img {
 
 img:hover {
     border: 5px solid #fff;
-    -webkit-transform: scale(1.1)
-    -ms-transform: scale(1.1)
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-filter: none;
     filter: none;
