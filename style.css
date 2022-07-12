@@ -3,6 +3,7 @@
 body {
     background: url(pexels-elijah-o\'donnell-3473569.jpg) center center/cover no-repeat;
     min-height: 100vh;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
 }
@@ -22,18 +23,23 @@ img {
     height: 300px;
     margin: 10px;
     border: 10px solid #fefae0;
+    -webkit-filter: sepia(100%);
     filter: sepia(100%);
     transition-duration: 1s;
 }
 
 img:hover {
     border: 5px solid #fff;
+    -webkit-transform: scale(1.1)
+    -ms-transform: scale(1.1)
     transform: scale(1.1);
+    -webkit-filter: none;
     filter: none;
 }
 
 footer {
     background-color: #bc6c25;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
